@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://3.89.107.16:9000/</sonar.host.url>
+		<sonar.host.url>http://16.170.249.196:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>123456</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>ABC Technologies Releases Nexus Repository</name>
-	      <url>http://34.201.45.100:8082/repository/abc-release/</url>
+	      <url>http://13.48.42.214:8081/repository/abc-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>ABC Technologies Snapshot Nexus Repository </name>
-	      <url>http://18.233.147.100:8081/repository/test/</url>
+	      <url>http://13.48.42.214:8081/repository/abc-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
